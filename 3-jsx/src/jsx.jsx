@@ -37,3 +37,20 @@ export function AddTwoNumbers(){
         </div>
     )
 }
+
+
+export function Profile(){
+    function called(message){
+        alert(message);
+    }
+    return(
+        <div>
+
+        <ul>
+            <li>list 1</li>
+        </ul>
+        <button onClick={() => called("hello and welcome")}>Click me</button>
+
+        </div>
+    )
+}

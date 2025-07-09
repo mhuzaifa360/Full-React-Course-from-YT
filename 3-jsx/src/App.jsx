@@ -1,6 +1,6 @@
 // this file is for jsx tutorial
 import { jsx } from 'react/jsx-runtime';
-import { AddTwoNumbers, Image } from './jsx';
+import { AddTwoNumbers, Image, Profile } from './jsx';
 import './App.css'
 
 
@@ -14,6 +14,7 @@ export default function App(){
       <Image/>
       <img src={img_src} className={img_class} alt={img_description} />
       <AddTwoNumbers />
+      <Profile />
     </>
   )
 }
