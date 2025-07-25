@@ -5,6 +5,7 @@ import { useState } from 'react';
 import React from 'react'
 import ToogleLight from './Toogle-light';
 import TrafficSignal from './Traffic-signal-app';
+import TextChanger from './TextChanger';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Counter />
       <ToogleLight />
       <TrafficSignal />
+      <TextChanger />
     </div>
   )
 }

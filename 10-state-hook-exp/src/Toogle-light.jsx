@@ -15,10 +15,10 @@ function ToogleLight() {
     let ToogleStatus;
 
     if(toogle==true){
-        ToogleStatus="💡"
+        ToogleStatus="ON 💡"
 
     }else{
-        ToogleStatus="🏮"
+        ToogleStatus="OFF 🏮"
     }
   return (
     <div>
